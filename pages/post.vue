@@ -13,4 +13,24 @@
   export default {}
 </script>
 
-<style scoped></style>
+<style scoped>
+  .container {
+    display: flex;
+    line-height: 1.5;
+    justify-content: space-between;
+  }
+
+  article * {
+    margin-bottom: 1rem;
+  }
+
+  aside {
+    min-width: 280px;
+    max-width: 280px;
+    padding-left: 2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+</style>
